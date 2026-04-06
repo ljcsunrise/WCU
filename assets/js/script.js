@@ -53,7 +53,6 @@ if (applicationForm) {
       return;
     }
 
-    event.preventDefault();
 
     if (applicationMessage) {
       applicationMessage.textContent = "Thank you. Your required confirmation has been completed, and your application is ready for review.";
